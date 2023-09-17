@@ -1,8 +1,8 @@
-package com.poc.cadastro.controller;
+package com.loteamento.controleclientes.controller;
 
-import com.poc.cadastro.exceptions.PessoaNotFoundException;
-import com.poc.cadastro.model.Pessoa;
-import com.poc.cadastro.service.PessoaService;
+import com.loteamento.controleclientes.exceptions.PessoaNotFoundException;
+import com.loteamento.controleclientes.model.Pessoa;
+import com.loteamento.controleclientes.service.PessoaService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 

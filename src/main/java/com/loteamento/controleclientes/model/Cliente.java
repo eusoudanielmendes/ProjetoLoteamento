@@ -1,8 +1,6 @@
-package com.poc.cadastro.model;
+package com.loteamento.controleclientes.model;
 
 import jakarta.persistence.*;
-
-import javax.management.loading.PrivateClassLoader;
 
 
 @Entity
@@ -10,7 +8,7 @@ import javax.management.loading.PrivateClassLoader;
 public class Cliente {
    @Id
    @GeneratedValue
-   @Column(name = "idCliente")
+   @Column(name = "id_cliente")
     private Long idCliente;
 
     @Column(name = "nome")
@@ -19,7 +17,7 @@ public class Cliente {
     @Column(name = "nacionalidade")
     private String nacionalidade;
 
-    @Column(name = "estadoCivil")
+    @Column(name = "estado_civil")
     private String estadoCivil;
 
     @Column (name = "rg")

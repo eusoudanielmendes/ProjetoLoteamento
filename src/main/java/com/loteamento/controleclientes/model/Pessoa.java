@@ -1,4 +1,4 @@
-package com.poc.cadastro.model;
+package com.loteamento.controleclientes.model;
 
 import jakarta.persistence.*;
 

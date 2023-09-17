@@ -8,10 +8,10 @@
 		<version>3.1.1</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.poc</groupId>
-	<artifactId>cadastro</artifactId>
+	<groupId>com.loteamento</groupId>
+	<artifactId>controleclientes</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>cadastro</name>
+	<name>controle_clientes</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
 		<java.version>17</java.version>

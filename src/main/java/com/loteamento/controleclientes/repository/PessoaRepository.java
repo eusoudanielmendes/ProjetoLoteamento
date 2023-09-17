@@ -1,6 +1,6 @@
-package com.poc.cadastro.repository;
+package com.loteamento.controleclientes.repository;
 
-import com.poc.cadastro.model.Pessoa;
+import com.loteamento.controleclientes.model.Pessoa;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

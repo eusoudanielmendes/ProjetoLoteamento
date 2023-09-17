@@ -1,7 +1,7 @@
-package com.poc.cadastro.service;
+package com.loteamento.controleclientes.service;
 
-import com.poc.cadastro.model.Pessoa;
-import com.poc.cadastro.repository.PessoaRepository;
+import com.loteamento.controleclientes.model.Pessoa;
+import com.loteamento.controleclientes.repository.PessoaRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -11,7 +11,6 @@ import java.util.List;
 public class PessoaService {
     @Autowired
     private PessoaRepository pessoaRepository;
-
 
     public List<Pessoa> listarPessoas(){
         return pessoaRepository.findAll();
